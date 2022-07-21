@@ -1,0 +1,3 @@
+﻿  parser.cpp
+C:\Users\sshre\OneDrive\Desktop\ToyRobot\ToyRobot\parser.cpp(43,49): warning C4101: 'e': unreferenced local variable
+  ToyRobot.vcxproj -> C:\Users\sshre\OneDrive\Desktop\ToyRobot\Debug\ToyRobot.exe
