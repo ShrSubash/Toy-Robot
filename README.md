@@ -1,12 +1,8 @@
 Toy Robot Code Challenge
 
-The Toy Robot coding challenge is described in the following pages. Please review and complete an implementation that
-fulfills the requirements. Please take as much time as you need to complete the challenge. We would prefer you take the
-time to complete a solution you are happy with.
-We use these submissions to help us understand your abilities and provide a discussion point should you be successful
-in progressing to the next stage. We are specifically interested in how you approach the problem. We like to see elegant
-solutions and clean code; write this as if someone else will be maintaining your code, with a preference on
-maintainability and correctness rather than performance.
+Question and requirements:
+
+The Toy Robot coding challenge is described in the following pages. 
 Please complete the solution in a language relevant for the role being applied for. You will be advised when receiving the
 challenge by our hiring manager.
 What to include in your submission
@@ -46,6 +42,7 @@ Constraints:
 The toy robot must not fall off the table during movement. This also includes the initial placement of the toy robot. Any
 move that would cause the robot to fall must be ignored.
 
+
 Example Input and Output:
 
 a)----------------
@@ -82,3 +79,8 @@ Get boost at https://www.boost.org/users/download/
 For convenience boost includes and Windows static libraries for the unittest framework are provided (Linux to come) in the directory 3rd on the branch win_static_boost_libs. Static boost libraries required are Boost_TEST_EXEC_MONITOR_LIBRARY and Boost_UNIT_TEST_FRAMEWORK_LIBRARY.
 
 Please check the output folder for more snapshot of the output.
+
+Installation and steps to run the program
+1.Install the boost library in your computer.
+2. Include the path for boot library in your program along with the path of projrt src and include path
+3.
