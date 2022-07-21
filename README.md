@@ -10,8 +10,12 @@ maintainability and correctness rather than performance.
 Please complete the solution in a language relevant for the role being applied for. You will be advised when receiving the
 challenge by our hiring manager.
 What to include in your submission
+
+
 ● Link to hosted VCS repository (preferred), or zip of source code
+
 ● Appropriate documentation such as a readme (it should be clear how to setup and run your app)
+
 ● Appropriate unit and/or integration tests included with your source code (these should be runnable)
 
 Description and requirements:
@@ -64,6 +68,8 @@ REPORT
 Output: 3,3,NORTH
 
 
+
+
 Dependencies
 The project includes headers for the boost libraries. The unit test project can either link statically against the boost unit test framework or use a header only implementation. Conan builds will automatically chose the header only implementation, while a CMake build offers the choice of linking statically.
 
@@ -71,3 +77,5 @@ The project includes headers for the boost libraries. The unit test project can 
 Get boost at https://www.boost.org/users/download/
 
 For convenience boost includes and Windows static libraries for the unittest framework are provided (Linux to come) in the directory 3rd on the branch win_static_boost_libs. Static boost libraries required are Boost_TEST_EXEC_MONITOR_LIBRARY and Boost_UNIT_TEST_FRAMEWORK_LIBRARY.
+
+Please check the output folder for more snapshot of the output.
